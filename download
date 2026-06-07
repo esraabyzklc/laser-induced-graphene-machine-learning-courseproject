@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Raw/private datasets
+# Keep folder structure but do not commit raw experimental files by default.
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated outputs
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/tables/*.csv
+results/tables/*.xlsx
+
+# Generated synthetic/processed datasets
+# Remove these rules if you intentionally want to share cleaned/synthetic data.
+data/processed/*.csv
+data/processed/*.xlsx
+data/synthetic/*.csv
+data/synthetic/*.xlsx
+
+# Large archives
+*.zip
+*.tar
+*.gz
+*.rar
